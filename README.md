@@ -1,13 +1,5 @@
 # Spotify Popularity Prediction with Mamba Model
-Predicting a song's popularity based on the most popular songs on Spotify using Mamba architecure. The dataset used is a Spotify Audio Features dataset.
-
-Based on the paper:
-
-James Pham, Edric Kyauk, Edwin Park [Predicting Song Popularity](https://cs230.stanford.edu/files_winter_2018/projects/6970963.pdf)
-
-Video:
-
-[YouTube](https://youtu.be/i8Cnas7QrMc) - https://youtu.be/i8Cnas7QrMc
+Predicting a song's popularity based on the most popular songs on Spotify using Mamba architecure.
 
 <p align="center">
   <img width="500" src="https://github.com/Itamar-Horowitz/Predicting-A-Song-s-Popularity-Using-Mamba/blob/main/Images/spotify.png">
