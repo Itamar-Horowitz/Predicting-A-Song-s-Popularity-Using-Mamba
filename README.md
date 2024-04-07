@@ -5,8 +5,6 @@ Predicting a song's popularity based on the most popular songs on Spotify using 
   <img width="500" src="https://github.com/Itamar-Horowitz/Predicting-A-Song-s-Popularity-Using-Mamba/blob/main/Images/spotify.png">
 </p>
 
-Github Link : (https://github.com/Rebeccaazoulay/DeepLearning_04621)
-
 ## Table of Contents
   * [Background](#background)
   * [Prerequisites](#prerequisites)
