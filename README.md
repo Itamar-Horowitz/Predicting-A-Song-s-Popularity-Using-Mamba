@@ -24,7 +24,7 @@ Github Link : (https://github.com/Rebeccaazoulay/DeepLearning_04621)
   * 
 
 ## Project Explanation Video (English)
-https://www.youtube.com/watch?v=d8VXnhX3pAo&ab_channel=rebeccaazoulay
+https://www.youtube.com/watch?v=d8VXnhX3pAo
 
 
 ## Background
