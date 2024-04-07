@@ -43,17 +43,6 @@ We constructed a comprehensive song dataset that contains a plethora of feature 
 
 
 ## Prerequisites
-|Library         | Version |
-|----------------------|----|
-|`torch`|  `3.5.5 (Anaconda)`|
-|`pandas`|  `0.4.1`|
-|`numpy`|  `0.10.9`|
-|`matplotlib`|  `1.12.0`|
-|`sklearn`|  `1.5`|
-|`mamba_ssm`|  `1.5`|
-
-
-
 - Python 3.x
 - PyTorch
 - scikit-learn
