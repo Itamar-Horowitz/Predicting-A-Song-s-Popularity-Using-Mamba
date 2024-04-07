@@ -11,7 +11,7 @@ Video:
 
 ![spotify](https://github.com/Rebeccaazoulay/DeepLearning_04621/assets/102752965/db7feed7-7c79-4d8f-9010-470095dd2196)
 <center>
-    <img src="assets/images/spotify.png">
+    <img src="assets/Images/spotify.png">
 </center>
 
 Github Link : (https://github.com/Rebeccaazoulay/DeepLearning_04621)
