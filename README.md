@@ -15,6 +15,7 @@ Video:
 
 Github Link : (https://github.com/Rebeccaazoulay/DeepLearning_04621)
 
+## Table of Contents
   * [Background](#background)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
