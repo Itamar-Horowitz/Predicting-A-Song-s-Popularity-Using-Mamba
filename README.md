@@ -22,15 +22,7 @@ Github Link : (https://github.com/Rebeccaazoulay/DeepLearning_04621)
   * [References](#references)
 
 ## Background
-Predicting the popularity of songs is crucial for businesses aiming to remain competitive
-in the ever-expanding music industry. Initial attempts to predict popularity using basic
-machine learning techniques, including linear regression and logistic regression, yielded
-modest results. Our project explores the various factors influencing song popularity by
-utilizing a dataset comprising audio features and metadata for 4,771 tracks spanning the
-last 50 years. Leveraging the Mamba architecture, a deep learning model customized for
-long sequence modeling, our project aimed to enhance prediction accuracy. Surprisingly,
-the Mamba architecture yielded similar results to linear regression, prompting further
-investigation.
+Predicting the popularity of songs is crucial for businesses aiming to remain competitive in the ever-expanding music industry. Initial attempts to predict popularity using basic machine learning techniques, including linear regression and logistic regression, yielded modest results. Our project explores the various factors influencing song popularity by utilizing a dataset comprising audio features and metadata for 4,771 tracks spanning the last 50 years. Leveraging the Mamba architecture, a deep learning model customized for long sequence modeling, our project aimed to enhance prediction accuracy. Surprisingly, the Mamba architecture yielded similar results to linear regression, prompting further investigation.
 
 ## Method
 ### Mamba
