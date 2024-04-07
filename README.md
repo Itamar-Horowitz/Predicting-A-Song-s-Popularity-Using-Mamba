@@ -1,4 +1,4 @@
-# Spotify Popularity Prediction using Mamba Model
+# Spotify Popularity Prediction Using Mamba Model
 Predicting a song's popularity based on the most popular songs on Spotify using Mamba architecure.
 
 <p align="center">
