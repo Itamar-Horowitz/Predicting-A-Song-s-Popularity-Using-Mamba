@@ -9,10 +9,8 @@ Video:
 
 [YouTube](https://youtu.be/i8Cnas7QrMc) - https://youtu.be/i8Cnas7QrMc
 
-![spotify](https://github.com/Rebeccaazoulay/DeepLearning_04621/assets/102752965/db7feed7-7c79-4d8f-9010-470095dd2196)
-
 <center>
-    <img src="assets/Images/spotify.png">
+    <img src="/Images/spotify.png">
 </center>
 
 Github Link : (https://github.com/Rebeccaazoulay/DeepLearning_04621)
