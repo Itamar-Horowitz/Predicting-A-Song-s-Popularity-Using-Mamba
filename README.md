@@ -43,7 +43,7 @@ We constructed a comprehensive song dataset that contains a plethora of feature 
 
 
 ## Prerequisites
-- Python 3.x
+- Python
 - PyTorch
 - scikit-learn
 - matplotlib
