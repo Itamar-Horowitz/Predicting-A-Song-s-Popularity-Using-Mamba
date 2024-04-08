@@ -21,7 +21,6 @@ Project Explanation Video (English): https://www.youtube.com/watch?v=d8VXnhX3pAo
 ## Background
 Predicting the popularity of songs is crucial for businesses aiming to remain competitive in the ever-expanding music industry. Initial attempts to predict popularity using basic machine learning techniques, including linear regression and logistic regression, yielded modest results. Our project explores the various factors influencing song popularity by utilizing a dataset comprising audio features and metadata for 4,771 tracks spanning the last 50 years. Leveraging the Mamba architecture, a deep learning model customized for long sequence modeling, our project aimed to enhance prediction accuracy. Surprisingly, the Mamba architecture yielded similar results to linear regression, prompting further investigation.
 
-## Method
 ### Mamba
 To enable handling long data sequences, Mamba incorporates the Structured State Space sequence model (S4).S4 can effectively and efficiently model long dependencies by combining the strengths of continuous-time, recurrent, and convolutional models, enabling it to handle irregularly sampled data, have unbounded context, and remain computationally efficient both during training and testing.
 
@@ -74,6 +73,7 @@ This script trains the Mamba model on the Spotify dataset, performs hyperparamet
 The dataset used for this project is the [Spotify Audio Features dataset], made of 4,471 songs which includes various audio features of Spotify songs such as acousticness, danceability, energy, tempo, etc.
 
 ## References
+* https://github.com/state-spaces/mamba
 * https://cs230.stanford.edu/projects_fall_2020/reports/55822810.pdf
 * https://cs229.stanford.edu/proj2015/140_report.pdf
 * https://github.com/MattD82/Predicting-Spotify-Song-Popularity/blob/master/README.md
