@@ -9,19 +9,20 @@ Project Explanation Video (English): https://www.youtube.com/watch?v=d8VXnhX3pAo
 
 ## Table of Contents
   * [Background](#background)
+  * [Mamba](#mamba)
   * [Dataset](#dataset)
+  * [Results](#results)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Usage](#usage)
   * [References](#references)
-  * 
 
 
 
 ## Background
 Predicting the popularity of songs is crucial for businesses aiming to remain competitive in the ever-expanding music industry. Initial attempts to predict popularity using basic machine learning techniques, including linear regression and logistic regression, yielded modest results. Our project explores the various factors influencing song popularity by utilizing a dataset comprising audio features and metadata for 4,771 tracks spanning the last 50 years. Leveraging the Mamba architecture, a deep learning model customized for long sequence modeling, our project aimed to enhance prediction accuracy. Surprisingly, the Mamba architecture yielded similar results to linear regression, prompting further investigation.
 
-### Mamba
+## Mamba
 To enable handling long data sequences, Mamba incorporates the Structured State Space sequence model (S4).S4 can effectively and efficiently model long dependencies by combining the strengths of continuous-time, recurrent, and convolutional models, enabling it to handle irregularly sampled data, have unbounded context, and remain computationally efficient both during training and testing.
 
 Mamba, building on the S4 model, introduces significant enhancements, particularly in its treatment of time-variant operations. Central to its design is a unique selection mechanism that adapts structured state space model (SSM) parameters based on the input. This enables Mamba to selectively focus on relevant information within sequences, effectively filtering out less pertinent data. The model transitions from a time-invariant to a time-varying framework, which impacts both the computation and efficiency of the system.
