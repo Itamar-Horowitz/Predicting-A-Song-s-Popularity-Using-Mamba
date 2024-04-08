@@ -43,7 +43,7 @@ We performed normalization procedures and fed the data to two models, linear reg
 
 
 ## Results
-
+Using the Mamba architecture on song’s popularity prediction, we essentially got equivalent results to those obtained with the linear regression approach.
 
 ## Prerequisites
 - Python
