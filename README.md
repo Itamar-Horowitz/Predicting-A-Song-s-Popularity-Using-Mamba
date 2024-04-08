@@ -9,10 +9,10 @@ Project Explanation Video (English): https://www.youtube.com/watch?v=d8VXnhX3pAo
 
 ## Table of Contents
   * [Background](#background)
+  * [Dataset](#dataset)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Dataset](#dataset)
   * [References](#references)
   * 
 
@@ -77,10 +77,6 @@ cd spotify-popularity-prediction
 python train_model.py
 
 This script trains the Mamba model on the Spotify dataset, performs hyperparameter tuning, and evaluates the model's performance.
-
-## Dataset
-
-The dataset used for this project is the [Spotify Audio Features dataset], made of 4,471 songs which includes various audio features of Spotify songs such as acousticness, danceability, energy, tempo, etc.
 
 ## References
 * https://github.com/state-spaces/mamba
