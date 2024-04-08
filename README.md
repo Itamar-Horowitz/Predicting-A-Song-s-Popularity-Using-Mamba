@@ -25,7 +25,7 @@ Predicting the popularity of songs is crucial for businesses aiming to remain co
 ## Mamba
 The architecture of our model is based on the Mamba model, which is a sequence model that can handle long data sequences. It builds on the Structured State Space (S4) model and introduces enhancements, particularly in time-variant operations. Mamba’s design includes a unique selection mechanism that adapts SSM parameters based on the input, allowing it to focus on relevant information within sequences.
 
-The model transitions from a time-invariant to a time-varying framework, which impacts both the computation and efficiency of the system. To address the computational challenges introduced by this time-variance, Mamba employs a hardware-aware algorithm. This algorithm enables efficient computation on modern hardware, like GPUs, by using techniques such as kernel fusion, parallel scan, and recomputation.
+The Mamba model transitions from a time-invariant to a time-varying framework, which impacts both the computation and efficiency of the system. To address the computational challenges introduced by this time-variance, Mamba employs a hardware-aware algorithm. This algorithm enables efficient computation on modern hardware, like GPUs, by using techniques such as kernel fusion, parallel scan, and recomputation.
 
 Mamba also simplifies its architecture by integrating the SSM design with MLP blocks, resulting in a homogeneous and streamlined structure. This enhances the model’s capability for general sequence modeling across various data types, including language, audio, and genomics, while maintaining efficiency in both training and inference.
 
