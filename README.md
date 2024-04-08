@@ -31,14 +31,14 @@ To address the computational challenges introduced by this time-variance, Mamba 
 Additionally, Mamba simplifies its architecture by integrating the SSM design with MLP blocks, resulting in a homogeneous and streamlined structure, furthering the model's capability for general sequence modeling across various data types, including language, audio, and genomics, while maintaining efficiency in both training and inference.
 
 ## Dataset
-We constructed a comprehensive song dataset that contains a plethora of feature types for 4,771 tracks from the last 50 years. This dataset was compiled by aggregating 50 Spotify playlist IDs, representing the annual top 100 tracks over 50 years. Through the use of Spotipy, Spotify’s web API, we were able to retrieve detailed audio features and metadata for each track. Those audio features are number-type features such as the general loudness or acousticness of a song and the metadata are string-type features such as song name, song id and the names of artists. Here are some example songs from the dataset, without any preprocessing:
+For this project, we constructed a comprehensive song dataset that contains a plethora of feature types for 4,771 tracks from the last 50 years, which includes various audio features of Spotify songs such as acousticness, danceability, energy, tempo, etc. Here are some example songs from the dataset, without any preprocessing:
 
-**|  artist_name   |        track_id        |   track_name  | acousticness | danceability | duration_ms | energy | instrumentalness | key | liveness | loudness | mode  | speechiness | tempo   | time_signature | valence | popularity |**
-|:----------:|:-------------:|:------------:|:----------------------:|:----------:|:------------:|:------------:|:-----------:|:------:|:----------------:|:---:|:--------:|:--------:|:-----:|:-----------:|:-------:|:--------------:|:-------:|
-| Ariana Grande  | 5D34wRmbFS29AjtTOP2QJe |   yes, and?   |    0.194     |    0.785     | 214994      | 0.766  | 
-        7        |  1  |  0.107   | -6.551   |   1   |   0.0503    | 119.029 |        4       | 0.804   |    84      |
-| Taylor Swift  | Eclipse      | 1tDWVeCR9oWGX8d5J9rswk | 62         | 0.0591       | 0.359        | 130429      | 0.579  | 0.746            | A#  | 0.0686   | -10.765  | Major | 0.0406      | 68.102  | 4/4            | 0.135   |
-| Mitski    | Baby         | 6epn3r7S14KUqlReYr77hA | 74         | 0.0544       | 0.656        | 214240      | 0.841  | 0                | F   | 0.122    | -5.183   | Minor | 0.232       | 65.024  | 4/4            | 0.522   |
+| artist_name   |  track_id               |track_name    | acousticness | danceability | duration_ms | energy | instrumentalness | key | liveness | loudness | mode  | speechiness | tempo   | time_signature | valence | popularity   |
+|:-------------:|:-----------------------:|:-----------:|:------------:|:------------:|:-----------:|:------:|:----------------:|:---:|:--------:|:--------:|:-----:|:-----------:|:-------:|:--------------:|:-------:|:----------:|
+| Ariana Grande  | 5D34wRmbFS29AjtTOP2QJe |   yes, and?   |    0.194     |    0.785     | 214994      | 0.766  | 7        |  1  |  0.107   | -6.551   |   1   |   0.0503    | 119.029 |        4       | 0.804   |    84      |
+| Mitski  | 3vkCueOmm7xQDoJ17W1Pm3 |   My Love Mine All Mine   |   0.868    |    0.504     | 137773      | 0.308  | 0.135  |  9  |  0.158   | -14.958   |   1   |   0.0321    | 113.95 |        4       | 0.121   |    96      |
+| Feid  | 7bywjHOc0wSjGGbj04XbVi |   LUNA   |   0.131   |    0.774     | 196800      | 0.86  | 0  |  7  |  0.116   | -2.888   |   0   |   0.13    | 100.019 |        4       | 0.446   |    95      |
+
 
 We divided the dataset so that 80\% of the tracks were used for training and 20\% were used for testing. Additionally, normalization procedures were applied to the features with a normal distributionfeatures.
 
