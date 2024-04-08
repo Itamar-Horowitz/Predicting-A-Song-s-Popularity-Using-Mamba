@@ -39,12 +39,7 @@ For this project, we constructed a comprehensive song dataset that contains a pl
 | Mitski  | 3vkCueOmm7xQDoJ17W1Pm3 |   My Love Mine All Mine   |   0.868    |    0.504     | 137773      | 0.308  | 0.135  |  9  |  0.158   | -14.958   |   1   |   0.0321    | 113.95 |        4       | 0.121   |    96      |
 | Feid  | 7bywjHOc0wSjGGbj04XbVi |   LUNA   |   0.131   |    0.774     | 196800      | 0.86  | 0  |  7  |  0.116   | -2.888   |   0   |   0.13    | 100.019 |        4       | 0.446   |    95      |
 
-
-We divided the dataset so that 80\% of the tracks were used for training and 20\% were used for testing. Additionally, normalization procedures were applied to the features with a normal distributionfeatures.
-
-## Model Architecture
-<img width="320" alt="Mamba_model" src="https://github.com/Rebeccaazoulay/Predicting-a-song-s-popularity-using-Mamba/assets/164641099/d78c8f96-1040-44ca-b8a6-80ec6d9325f0">
-
+We performed normalization procedures and fed the data to two models, linear regression and mamba based,  
 
 
 ## Results
