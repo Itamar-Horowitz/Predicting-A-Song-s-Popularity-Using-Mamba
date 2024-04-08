@@ -62,7 +62,7 @@ pip install mamba_ssm
 ## Usage
 
 1. Clone the repository:
-git clone [https://github.com/your_username/spotify-popularity-prediction.git](https://github.com/Itamar-Horowitz/Predicting-A-Song-s-Popularity-Using-Mamba.git)
+git clone [[https://github.com/your_username/spotify-popularity-prediction.git](https://github.com/Itamar-Horowitz/Predicting-A-Song-s-Popularity-Using-Mamba.git)](https://github.com/Itamar-Horowitz/Predicting-A-Song-s-Popularity-Using-Mamba.git)
 
 2. Navigate to the project directory:
 cd Predicting-A-Song-s-Popularity-Using-Mamba
