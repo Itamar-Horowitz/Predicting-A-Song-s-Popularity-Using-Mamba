@@ -67,10 +67,10 @@ git clone [https://github.com/your_username/spotify-popularity-prediction.git](h
 2. Navigate to the project directory:
 cd Predicting-A-Song-s-Popularity-Using-Mamba
 
-3. Run the provided Python script:
-python train_model.py
+3. Run the provided Jupiter Notebook file:
+songs_popularity_predictor.ipynb
 
-This script trains the Mamba model on the Spotify dataset and evaluates the model's performance.
+This file trains the Mamba model on the Spotify dataset and evaluates the model's performance.
 
 ## References
 * https://github.com/state-spaces/mamba
